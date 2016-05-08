@@ -7,12 +7,9 @@
 2: Added support for detecting the source html character set.  This is used to convert characters when plaintext is requested.
 3: Other little fixes and features, too numerous to categorize.
 
-[On going]
-1. Error of "file_get_contents()" will be thrown as an exception.
-2. Add flag: LOCK_EX while calling "file_put_contents()". 
-3. Fix the typo of "token_blank_t".
 
 
+Test Test Test
 [PHP Simple HTML DOM Parser v1.11 is released]
 1. Supports xpath generated from Firebug.
 2. New method "dump" of "simple_html_dom_node".
