@@ -22,7 +22,7 @@
  * Create find_ancestor_tag to see if a tag is - at any level - inside of another specific tag.
  * Paperg: added parse_charset so that we know about the character set of the source document.
  *  NOTE:  If the user's system has a routine called get_last_retrieve_url_contents_content_type availalbe, we will assume it's returning the content-type header from the
- *  last transfer or curl_exec, and we will parse that and use it in preference to any other method of charset detection.
+
  *
  * Found infinite loop in the case of broken html in restore_noise.  Rewrote to protect from that.
  * PaperG (John Schlick) Added get_display_size for "IMG" tags.
@@ -37,8 +37,8 @@
  * @package PlaceLocalInclude
  * @subpackage simple_html_dom
  */
-
-/**
+wre
+/**sefgersregter
  * All of the Defines for the classes below.
  * @author S.C. Chen <me578022@gmail.com>
  */
